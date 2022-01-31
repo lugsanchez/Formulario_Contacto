@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Formulario </title>
+</head>
+<body>
+	<main class="principal">
+		<header id= "fondo-header">
+			<h1>FORMULARIO DE CONTACTO</h1>
+		</header>
+    <form>
+		<label for="nombre">Nombre completo: *</label>
+		<input type="text" id="nombre" placeholder="Escribe tu nombre" required><br><br>
+
+        <label for="nombre">Apellido: *</label>
+		<input type="text" id="nombre" placeholder="Escribe tu apellido" required><br><br>
+
+		<label for="date">Fecha de nacimiento: *</label>
+		<input type="date" name="fechas"
+		placeholder="Escribe tu fecha de nacimiento"
+		id="date"><br><br>
+	
+		<label for="email">Email: *</label>
+		<input type="email" name="email" id="email" placeholder="Escribe tu correo" maxlength="25" minlength="8" required><br><br>
+		
+		<label for="tel">numero celular: *</label>
+		<input type="tel" name="telefono" id="tel" placeholder="Escribe tu celular" maxlength="25" minlength="8" required><br><br>
+		
+		<label for="nombre">Direccion: *</label>
+		<input type="text" id="nombre" placeholder="Escribe tu direccion" required><br><br>
+		<label for="nombre">Residencia:</label>
+		<select name="escribe lugar de residencia" id= lugar de residencia>
+		  <option value="Carrera">Carrera</option>
+		  <option value="Carretera">Carretera</option>
+		  <option 
+		  value="Calle">Calle</option>
+		  <option 
+		  value="Barrio">Barrio</option>
+
+		</select><br><br>
+	
+		</select><br><br>
+		
+		<label>Escribe tu mensaje:</label><br>
+		<textarea rows="10" cols="20"></textarea><br>
+
+		<input type="reset" value="Borrar">
+		<input type="submit" value="Enviar">
+	</form>
+</main>
+    
+</body>
+</html>
